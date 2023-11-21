@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    font: normal normal 1.15em "Trebuchet MS", sans-serif;
+}
+
+a {
+    color: rgb(4, 155, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: rgb(0, 113, 189);
+}
+
+a:visited:hover {
+    color: rgb(105, 8, 196);
+}
+
+a:active {
+    color: rgb(0, 77, 128);
+}
+
+a:visited:active {
+    color: rgb(61, 0, 117);
+}
+
+a::after {
+    content: ' ♦ ';
+}
+
+h1 {
+    background-color: rgb(184, 116, 248);
+    width: 400px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
+    margin: auto;
+}

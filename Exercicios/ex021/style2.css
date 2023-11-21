@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+    font: normal normal 1.25em 'Trebuchet MS', sans-serif
+}
+
+header {
+    background-color: rgb(66, 66, 223);
+    border-radius: 5px;
+    padding: 0px 0px 10px 5px;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.438);
+    text-align: center;
+}
+
+nav > a {
+    color: rgb(255, 255, 255);
+    margin: 0px 10px;
+}
+
+nav > a:hover {
+    color: darkgreen;
+}
+
+nav > a:visited {
+    color: chartreuse;
+}
+
+nav > a:visited:hover {
+    color: brown;
+}
+
+article > aside {
+    font: bold normal 1em 'Trebuchet MS', sans-serif;
+    text-decoration: overline;
+    text-align: center;
+}
+
+footer {
+    background-color: grey;
+    padding: 4px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+footer > p {
+    margin: 0px;
+    box-shadow: inset 1px 0px 8px 0px rgba(0, 0, 0, 0.623);
+}
+
+div#bola {
+    height: 300px;
+    width: 300px;
+    background-color: chocolate;
+    margin: auto;
+    padding: 10px;
+    border-radius: 50%;
+}

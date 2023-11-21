@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Work Sans', 'Trebuchet MS', Tahoma, sans-serif;
+    font-size: 1.25em;
+}
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    font: italic lighter 1.25em 'Trebuchet Ms', Tahoma, sans-serif
+}

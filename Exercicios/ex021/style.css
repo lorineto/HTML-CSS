@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: darkgrey;
+    height: 41px;
+    width: 911px;
+
+    border-width: 12px;
+    border-style: solid;
+    border-color: cadetblue;
+    border-radius: 5px;
+
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: black;
+}
+
+a {
+    border-width: 5px;
+    border-style: solid;
+    border-color: darkorchid;
+}
